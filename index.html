@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Para Mi Novia</h1>
+        <p class="message">mi princesita hermosa</p>
+        <div class="gallery">
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/foto1.jpg" alt="Foto 1">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>me gusta estar a tu lado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/foto2.jpg" alt="Foto 2">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>eres alguien demasiado especial para mi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/foto3.jpg" alt="Foto 3">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>me encantas demasiado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/foto4.jpg" alt="Foto 4">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>todo a tu lado es muy bonito</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/img/foto5.jpg" alt="Foto 5">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>siempre quiero estar contigo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="showMessage()">Mostrar Mensaje Especial</button>
+        <div id="specialMessage" class="hidden">Te amo demasiado mi princesita, mi niña, mi vida</div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
